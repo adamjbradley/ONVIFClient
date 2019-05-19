@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using OpenCvSharp;
 using OpenCvSharp.Extensions;
@@ -12,14 +13,14 @@ namespace OpenCVClient
         {
             Mat mat = new Mat();
             VideoCapture videoCapture = new VideoCapture(0);
-            int frame = 0;
+            int frames = 0;
             while (true)
             {
-                Console.WriteLine(frame);
+                Trace.Write(frames);
                 videoCapture.Read(mat);
-                frame++;
+                frames++;
 
-                if (frame > 100)
+                if (frames > 100)
                     break;
             }
         }

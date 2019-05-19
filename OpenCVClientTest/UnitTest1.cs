@@ -1,16 +1,24 @@
 using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Diagnostics;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
+
 using OpenCVClient;
 
 namespace OpenCVClientTest
 {
-    [TestClass]
+    //[TestClass]
+    [TestFixture]
     public class UnitTest1
     {
-        [TestMethod]
+        //[TestMethod]
+        [Test]
         public void TestMethod1()
         {
+            TestContext.WriteLine("AJB");
+
             OpenCVClient.OpenCVClient ocvc = new OpenCVClient.OpenCVClient();
+            TestContext.WriteLine("AJB");
         }
     }
 }
