@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ONVIFClient", "ONVIFClient\ONVIFClient.csproj", "{00E6AC6B-2F3A-4FA5-8674-5A3482A1FA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ONVIFClientTest", "ONVIFClientTest\ONVIFClientTest.csproj", "{91920566-4E8D-4A8E-90E1-57AC943B535F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCVClient", "OpenCVClient\OpenCVClient.csproj", "{13B5668E-B8D3-4477-A9CC-A63855629A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCVClientTest", "OpenCVClientTest\OpenCVClientTest.csproj", "{1058CF69-AD76-4F3C-ACEA-CDB6B19D1D9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E6AC6B-2F3A-4FA5-8674-5A3482A1FA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E6AC6B-2F3A-4FA5-8674-5A3482A1FA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E6AC6B-2F3A-4FA5-8674-5A3482A1FA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E6AC6B-2F3A-4FA5-8674-5A3482A1FA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91920566-4E8D-4A8E-90E1-57AC943B535F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91920566-4E8D-4A8E-90E1-57AC943B535F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91920566-4E8D-4A8E-90E1-57AC943B535F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91920566-4E8D-4A8E-90E1-57AC943B535F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B5668E-B8D3-4477-A9CC-A63855629A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B5668E-B8D3-4477-A9CC-A63855629A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B5668E-B8D3-4477-A9CC-A63855629A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B5668E-B8D3-4477-A9CC-A63855629A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1058CF69-AD76-4F3C-ACEA-CDB6B19D1D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1058CF69-AD76-4F3C-ACEA-CDB6B19D1D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1058CF69-AD76-4F3C-ACEA-CDB6B19D1D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1058CF69-AD76-4F3C-ACEA-CDB6B19D1D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
